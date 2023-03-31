@@ -1,0 +1,183 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(165, 176, 207)
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+/*body*/
+    /*header*/
+        .LogoTitulo{
+            display: flex;
+            align-items: flex-end;
+        }
+        .Logo-Principal img{
+            width: 150px;
+        }
+        .Titulo-Principal{
+            font-size: 15px;
+            font-style:italic;
+            padding-left: 5px;
+            text-shadow: 2px 2px 7px #9b87a8;
+            color:rgb(41, 38, 58) ;
+        }
+        .HUD {
+            font-size: 20px;
+            display: inline-block;
+            padding: 10px 5px;
+            background-color: rgb(121, 136, 185);
+            border-radius: 1em;
+            }
+        .HUD a{
+            margin: 0px 5px;
+            background-color: rgb(121, 136, 185);
+            align-items: center;
+        }
+        .Standard-1{
+            margin: 0px 5px;
+        }
+        .Impresion{
+            margin: 0px 5px;
+        }
+        .Resina{
+            margin: 0px 5px;
+        }
+        .Armado{
+            margin: 0px 5px;
+        }
+        .Pie{
+            font-size: 20px;
+            display: inline-block;
+            padding: 10px 5px;
+            background-color: rgb(121, 136, 185);
+            border-radius: 1em;
+        }
+        .Pie a{
+            margin: 0px 5px;
+            background-color: rgb(121, 136, 185);
+            align-items: center;
+        }
+        .Pie a img{
+            background-color: rgb(121, 136, 185);
+            padding-left: 150px;
+        }
+
+
+/*adaptable responsive*/
+            @media screen and (min-width: 700px) {
+            .Información-1{
+                max-width: 600px;
+            }
+        }
+
+
+/*contacto*/
+.contenido{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.logo-contacto{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.two-contacto{
+    box-shadow: 0 0 20px 0 #000000;
+}
+.two-contacto> *{
+    padding: 20px;
+}
+.three-contacto{
+background: #efefef;
+margin: 0px;
+padding: 10px;
+}
+
+.three-contacto form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.three-contacto form .block{
+    grid-column:1/3 ;
+}
+
+.three-contacto form button,
+.three-contacto form textarea,
+.three-contacto form select{
+    width: 375px;
+    padding: 12px;
+    padding-bottom: 15px;
+    margin: 5px;
+    border: 1px solid #644399;
+    background: #d0c2d6;
+    outline: 0;
+    border-bottom: 1.5px dashed #644399;
+}
+.three-contacto form input{
+    width: 75%;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 5px;
+    border: 1px solid #644399;
+    background: #d0c2d6;
+    outline: 0;
+}
+.three-contacto form label{
+    margin: 5px;
+}
+.three-contacto form button{
+    background: #000000;
+    color: #efefef;
+    border: 0;
+    text-transform: uppercase;
+}
+.one-contacto h1{
+    margin-top: 15px;
+    font-size: 25px;
+text-align: center;
+}
+.Map img{
+    width: 35px;
+}
+.Phone img{
+    width: 35px;
+}
+.Mail img{
+    width: 30px;
+}
+.Map2 p{
+    text-align: center;
+    margin: 5px;
+    font-size: 25px;
+}
+.Map3{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 225px;
+}
+
+@media(min-width: 700px) {
+    .two-contacto {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .two-contacto {
+        padding: 2em;
+    }
+    .one-contacto {
+        padding: 0 3em;
+    }
+    .four-contacto h4,
+    .four-contacto ul,
+    .four-contacto p {
+        text-align: left;
+    }
+    .Map3{
+        display: flex;
+    }
+}
